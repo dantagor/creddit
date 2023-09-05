@@ -235,7 +235,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -243,7 +243,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -251,7 +251,59 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/ui/toaster.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ui/toaster.tsx",
+        "name": "*",
+        "chunks": [
           "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/ui/toaster.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "Toaster": {
+        "id": "(sc_client)/./src/components/ui/toaster.tsx",
+        "name": "Toaster",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/user-auth-form.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/user-auth-form.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/user-auth-form.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/user-auth-form.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       }
@@ -954,7 +1006,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -962,7 +1014,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -970,7 +1022,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -978,7 +1030,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -986,7 +1038,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -994,7 +1046,55 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/ui/toaster.tsx": {
+      "id": "(app-client)/./src/components/ui/toaster.tsx",
+      "name": "*",
+      "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/ui/toaster.tsx#": {
+      "id": "(app-client)/./src/components/ui/toaster.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/ui/toaster.tsx#Toaster": {
+      "id": "(app-client)/./src/components/ui/toaster.tsx",
+      "name": "Toaster",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/user-auth-form.tsx": {
+      "id": "(app-client)/./src/components/user-auth-form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/user-auth-form.tsx#": {
+      "id": "(app-client)/./src/components/user-auth-form.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dantagor/Documents/GitHub/reddit/src/components/user-auth-form.tsx#default": {
+      "id": "(app-client)/./src/components/user-auth-form.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     }
